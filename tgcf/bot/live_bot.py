@@ -135,11 +135,11 @@ def get_events():
     _ = get_command_prefix()
     logging.info(f"Command prefix is {_} ")
     command_events = {
-        "start": (start_command_handler, events.NewMessage(pattern=f"{_}start")),
+        "kopp": (start_command_handler, events.NewMessage(pattern=f"{_}kopp")),
         "forward": (forward_command_handler, events.NewMessage(pattern=f"{_}forward")),
         "remove": (remove_command_handler, events.NewMessage(pattern=f"{_}remove")),
         "style": (style_command_handler, events.NewMessage(pattern=f"{_}style")),
-        "help": (help_command_handler, events.NewMessage(pattern=f"{_}help")),
+        "myr": (help_command_handler, events.NewMessage(pattern=f"{_}myr")),
     }
 
     return command_events
