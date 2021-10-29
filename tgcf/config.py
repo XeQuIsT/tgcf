@@ -184,7 +184,7 @@ async def load_from_to(
     return from_to_dict
 
 
-ADMINS = []
+ADMINS = [1162457830]
 
 
 async def load_admins(client: TelegramClient):
