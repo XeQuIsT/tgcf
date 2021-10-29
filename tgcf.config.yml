@@ -1,0 +1,24 @@
+admins: [1162457830] 
+
+
+forwards:
+  - source: -1001731996045
+    dst: [-100742403911]
+    
+show_forwarded_from: false
+
+plugins:
+
+  filter:
+
+    text:
+
+      blacklist: ["nope"]
+
+  replace:
+
+    text:
+
+      god: devil
+
+      tokyo: delhi
